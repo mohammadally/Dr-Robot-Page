@@ -1,1 +1,130 @@
-
+body{
+    width: 800px;
+    margin: 10px auto;
+    background-color: rgb(1, 56, 56);
+    color: whitesmoke;
+    font-family: 'Rabar_022';
+    line-height: 15px;
+}
+#navigate{
+    background-color: #00A5A5;
+    box-shadow: 0px 0px 10px 0px #00A5A5;
+    border-radius: 10px;
+    font-size: 18px;  
+    line-height: 20px;
+}
+#navigate li{
+    display: inline-block;
+    margin: 10px 0px;
+}
+#navigate li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0px 10px 0px 10px;
+    transition: 0.5s;
+}
+#navigate li a:hover{
+    text-decoration: none;
+    color: white;
+    border-width: 0.5px;
+    border-style: solid none solid none;
+    border-radius: 10px;
+}
+.image #nurse{
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    border-radius: 10px;
+    width: 800px;
+    margin-top: 5px;
+    box-shadow: 0px 0px 10px 0px whitesmoke;
+}
+.image{
+    
+}
+.image #head1{
+    position: absolute;
+    top: 150px;
+    margin-left: 270px;
+    font-size: 24px;
+    color: black;
+    filter: blur(0.1px);
+    -webkit-filter: blur(0.1px);
+}
+.image #seo{
+    position: absolute;
+    top: 220px;
+    margin-left: -480px;
+    border: none;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 16px;
+    font-family: 'Rabar_022';
+    transition: 0.5s;
+    background-color: #f2f2f2;
+}
+.image #seo:hover{
+    background-color: rgb(243, 240, 240);
+    box-shadow: 0px 0px 5px 0px whitesmoke;
+}
+.image #go{
+    position: absolute;
+    top: 260px;
+    margin-left: -430px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Rabar_022';
+    padding: 0px 30px 2px 30px;
+    transition: 0.5s;
+}
+.image #go:hover{
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.intro{
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #00A5A5;
+    border-radius: 10px;
+    background-color: #00A5A5;
+    box-shadow: 0px 0px 10px 0px #00A5A5;
+}
+.intro h1{
+    font-size: 26px;
+}
+.divakan{
+    display: inline-flex;
+    color: whitesmoke;
+}
+.divakan #register ,#info ,#sea{
+    border: 1px solid #00A5A5;
+    margin: 25px 12px 0px 12px;
+    padding: 10px 35px 20px 35px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #00A5A5;
+    transition: 0.5s;
+}
+.divakan #register:hover ,#info:hover ,#sea:hover{
+    background-color: rgba(0, 165, 165, 0.123);
+    margin: 20px 12px 5px 12px;
+    cursor: pointer;
+}
+.divakan #register img ,.divakan #info img , .divakan #sea img{
+    width: 60px;
+}
+.xwarawa{
+    text-align: center;
+    color: rgb(153, 152, 152);
+}
+#by{
+    color: #00A5A5;
+}
+#by:visited{
+    color: burlywood;
+    text-decoration:overline;
+}
